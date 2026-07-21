@@ -27,6 +27,7 @@ realigned and with five corrections described below.
 | `parker_and_dubberstein.raw.txt` | The tables (pp. 25-46 of the original) as aligned plain text                        |
 | `parker_and_dubberstein.tsv`     | The same data as tab-separated values, one row per Babylonian month                 |
 | `new_moons_jdn.txt`              | Julian days of the astronomical new moons (conjunctions) covering the whole period |
+| `intercalations.tsv`             | The 247 intercalary months with attestation evidence and a confidence grade         |
 | `parse_pdubs.py`                 | Script that builds the `.tsv` from the plain-text tables                            |
 | `parker_and_dubberstein.sql`     | `CREATE TABLE` statement for importing the `.tsv` into a database                   |
 
@@ -97,6 +98,47 @@ own list of intercalary months attested in cuneiform texts (p. 4: "Addaru II,
 23d year"). The regenerated `.tsv` differs from the earlier version only in
 the month names and numbers of these five years; every date, Julian day
 number, and conjunction is unchanged.
+
+## Attestation of the intercalations
+
+Parker and Dubberstein graded their own evidence. Their Plate I marks each
+intercalary month as attested by a dated cuneiform text (capital U/A) or as
+their reconstruction (lowercase u/a); pages 4-7 cite the tablets behind the
+recently published attestations and add "Notes on the Unattested Intercalary
+Months" with explicit hedges ("very probable", "a is probable, u possible",
+"certain but could be in the following year"). `intercalations.tsv` collects
+all of this: one row per intercalary month, with
+
+| Field        | Explanation                                                              |
+| ------------ | ------------------------------------------------------------------------ |
+| jdn          | Julian day number of the first day of the intercalary month (joins the main TSV) |
+| nisanu_year  | Julian year of Nisanu 1 of the Babylonian year (negative BCE, 1 BCE is 0) |
+| king         | Reign, or "Seleucid Era"                                                  |
+| regnal_year  | Year of reign or era (accession year is 0)                                |
+| month        | "Ululu II" or "Addaru II"                                                 |
+| pd_cycle     | P&D's reference: 19-year period / year within it (period 1 begins 747 BCE) |
+| confidence   | 5-2, see below                                                            |
+| evidence     | Tablet citations or P&D's own wording                                     |
+
+The confidence grades, from P&D's own apparatus (1942 edition):
+
+- **5, attested** - a dated cuneiform text names the intercalary month
+  (capital letter in Plate I; tablet citations given where P&D list them).
+- **4, highly probable** - P&D's reconstruction: "all unattested intercalary
+  months not noted below may be regarded as highly probable" (p. 7). Years
+  329-7 BCE fall outside Plate I and are graded 4 on the strength of the
+  standardized 19-year cycle.
+- **3, very probable** - P&D qualify the year or month in their notes.
+- **2, probable** - P&D name a possible alternative month or adjacent year;
+  they specify spans of dates that "might be a month later" or earlier, so
+  these carry month-scale, not day-scale, uncertainty.
+
+No entry is a bare guess; grades 1-0 are unused. P&D also reject two
+published readings as impossible: an Ululu II in Nebuchadnezzar's 32nd year
+(read as year 31, p. 4 n. 11) and an Addaru II in Nabunaid's 2nd year (read
+as year 3, p. 6 n. 12). Later scholarship (Britton 2002, Ossendrijver 2018)
+has revised some pre-500 BCE reconstructions; encoding those refinements is
+future work.
 
 ## The TSV
 
