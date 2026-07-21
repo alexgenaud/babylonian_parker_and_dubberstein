@@ -1,0 +1,47 @@
+NISANU 1 AND THE MARCH EQUINOX (positive = after the equinox, days)
+======================================================================
+
+All 671 years:
+  era                               n   Nisanu1 - equinox   <0   fullmoon - equinox   <0
+  Chaldean (626-539 BCE)           88   -15.9 to  +30.4   18     -3.5 to  +43.0    1
+  Cyrus to Darius I (538-486)      53   -14.4 to  +27.7    8     -2.0 to  +40.1    1
+  Xerxes to cycle era (485-384)   102    -3.0 to  +34.5    5     +9.2 to  +46.7    0
+  fixed 19-yr cycle (383-312)      72    -0.1 to  +28.2    1    +12.8 to  +41.0    0
+  Seleucid (311-141 BCE)          171    +0.3 to  +29.8    0    +13.4 to  +42.3    0
+  Arsacid (140 BCE-AD 45)         185    +1.1 to  +30.6    0    +13.9 to  +42.9    0
+
+Excluding years within reach of a low-confidence intercalation:
+  era                               n   Nisanu1 - equinox   <0   fullmoon - equinox   <0
+  Chaldean (626-539 BCE)           74   -15.9 to  +30.2   14     -3.5 to  +42.8    1
+  Cyrus to Darius I (538-486)      51   -14.4 to  +24.5    8     -2.0 to  +37.2    1
+  Xerxes to cycle era (485-384)    98    -3.0 to  +34.5    5     +9.2 to  +46.7    0
+  fixed 19-yr cycle (383-312)      72    -0.1 to  +28.2    1    +12.8 to  +41.0    0
+  Seleucid (311-141 BCE)          171    +0.3 to  +29.8    0    +13.4 to  +42.3    0
+  Arsacid (140 BCE-AD 45)         185    +1.1 to  +30.6    0    +13.9 to  +42.9    0
+
+Breaches (full moon before equinox, or Nisanu 1 > 10 days early),
+with the corrective intercalation of the same Babylonian year:
+   616 BCE: Nisanu 1 = 3/15, -12.3 d; full moon  +0.7 d -> Ululu II that year, confidence 5 (attested: Dougherty GCCI II 50)
+   564 BCE: Nisanu 1 = 3/11, -15.9 d; full moon  -3.5 d -> Ululu II that year, confidence 5 (attested: Kruckmann NBRVT 79, 153, 154; Dougherty GCCI I 231, 248)
+   537 BCE: Nisanu 1 = 3/12, -14.4 d; full moon  -2.0 d -> Ululu II that year, confidence 5 (attested (P&D pl. I))
+
+Floor and ceiling of (Nisanu 1 - equinox) per half-century:
+   626 BCE ..  577 BCE   -12.3 ..  +30.4  |    ##########################################
+   576 BCE ..  527 BCE   -15.9 ..  +30.2  | ##############################################
+   526 BCE ..  477 BCE    -3.8 ..  +27.7  |             ###############################
+   476 BCE ..  427 BCE    -0.9 ..  +27.8  |                ############################
+   426 BCE ..  377 BCE    +0.3 ..  +34.5  |                 ##################################
+   376 BCE ..  327 BCE    -0.1 ..  +27.8  |                ###########################
+   326 BCE ..  277 BCE    +0.3 ..  +29.0  |                 ############################
+   276 BCE ..  227 BCE    +0.9 ..  +29.4  |                 ############################
+   226 BCE ..  177 BCE    +0.3 ..  +29.0  |                 ############################
+   176 BCE ..  127 BCE    +1.5 ..  +29.8  |                  ############################
+   126 BCE ..   77 BCE    +1.1 ..  +29.6  |                  ############################
+    76 BCE ..   27 BCE    +1.5 ..  +30.2  |                  ############################
+    26 BCE ..    AD 24    +2.0 ..  +30.6  |                   ############################
+     AD 25 ..    AD 45    +2.4 ..  +29.8  |                   ###########################
+
+Last year with Nisanu 1 more than 2 days before the equinox: 481 BCE.
+After the fixed cycle the floor rises ~0.5 day/century: the Metonic
+year (365.2467 d) is longer than the tropical year, so a frozen cycle
+drifts late against the equinox once observation stops correcting it.

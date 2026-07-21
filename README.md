@@ -30,6 +30,7 @@ realigned and with five corrections described below.
 | `intercalations.tsv`             | The 247 intercalary months with attestation evidence and a confidence grade         |
 | `parse_pdubs.py`                 | Script that builds the `.tsv` from the plain-text tables                            |
 | `parker_and_dubberstein.sql`     | `CREATE TABLE` statement for importing the `.tsv` into a database                   |
+| `analysis/`                      | Analyses derived from the tables, each a script with its output alongside           |
 
 ## The plain-text tables
 
@@ -172,6 +173,22 @@ To import it into a Sqlite3 database:
     sqlite> .read parker_and_dubberstein.sql
     sqlite> .mode tabs
     sqlite> .import parker_and_dubberstein.tsv parker_and_dubberstein
+
+## Analysis
+
+`analysis/nisanu_equinox.py` (results in `nisanu_equinox.txt`) measures the
+placement of the Babylonian new year against the March equinox in every year
+of the tables. Through the reign of Darius I the operative rule appears to be
+that the _full moon_ of Nisanu does not precede the equinox - Nisanu 1 itself
+may fall up to 16 days early, and the three deepest early starts (616, 564,
+537 BCE) are each corrected by a tablet-attested Ululu II later the same
+year. From Xerxes on the stricter rule that _Nisanu 1_ does not precede the
+equinox takes hold, exact under the fixed 19-year cycle, after which the
+floor drifts slowly late, as a frozen Metonic cycle must. The conclusion
+survives excluding every year within reach of a low-confidence intercalation
+(see `intercalations.tsv`). Caveat: the Babylonians reckoned their own
+equinox (MUL.APIN and later schemes), which can differ from the astronomical
+one by a day or two; testing against their equinox is future work.
 
 ## Sources and credits
 
