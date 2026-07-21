@@ -186,9 +186,18 @@ year. From Xerxes on the stricter rule that _Nisanu 1_ does not precede the
 equinox takes hold, exact under the fixed 19-year cycle, after which the
 floor drifts slowly late, as a frozen Metonic cycle must. The conclusion
 survives excluding every year within reach of a low-confidence intercalation
-(see `intercalations.tsv`). Caveat: the Babylonians reckoned their own
-equinox (MUL.APIN and later schemes), which can differ from the astronomical
-one by a day or two; testing against their equinox is future work.
+(see `intercalations.tsv`).
+
+`analysis/scheme_equinox.py` repeats the test against Babylon's own computed
+equinox, documented in `analysis/babylonian_equinox_schemes.md`: the MUL.APIN
+ideal (equinox at Nisanu 15) and the Seleucid-era Uruk scheme (19-year cycle
+anchored at 1 SE). The standardized cycle holds in the tables from 383 BCE
+onward, and from there to AD 45 the calendar keeps the scheme's one-sided
+rule exactly - Nisanu 1 never precedes the scheme's equinox by more than 3
+days in 427 years - while the scheme itself runs 4 to 6 days late against
+the true equinox, drifting as a frozen Metonic cycle must. The "equinox
+rule" was kept, to the day, against Babylon's computed equinox rather than
+the sky.
 
 ## Sources and credits
 

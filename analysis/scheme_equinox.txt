@@ -1,0 +1,52 @@
+BABYLON'S OWN EQUINOX SCHEMES AGAINST THE TABLES
+======================================================================
+
+The standardized 19-year cycle (Addaru II in cycle years 1, 4, 7,
+9, 12, 15, Ululu II in 18; cycle year 1 = 1 SE) holds without
+interruption from 383 BCE to the end of the tables.
+
+1. The TRUE equinox's seat in the Babylonian calendar (percent of
+   years; MUL.APIN's ideal seat is Nisanu 15, the Uruk scheme's
+   runs from the 6th of the last month to Nisanu 4):
+
+   era                                  earlier  last mo 1-15 last mo 16-30    Nisanu 1-4   Nisanu 5-15    after I 15
+   Chaldean (626-539 BCE)                    2%           33%           44%           10%            9%            1%
+   Cyrus to Darius I (538-486)               0%           34%           51%           11%            4%            0%
+   Xerxes to cycle era (485-384)             1%           46%           48%            5%            0%            0%
+   fixed cycle (383 BCE-)                    0%           50%           49%            0%            0%            0%
+
+   (columns: equinox earlier ... later in the calendar year)
+
+2. Nisanu 1 against the Uruk scheme's vernal equinox,
+   383 BCE - AD 45 (427 years):
+
+   Nisanu 1 - scheme equinox: -3 to +25 days; 0 years below -3, 0 years above +25.
+   The rule the scheme encodes is one-sided and the calendar
+   realizes it exactly: Nisanu 1 never precedes the scheme's
+   equinox by more than 3 days (the intercalary years trail it
+   by up to 25, the inserted month pushing the new year late).
+
+3. Drift of the scheme's equinox against the TRUE equinox
+   (positive = scheme late; tithi-to-day conversion adds ~1 day of
+   noise):
+
+    376 BCE ..  327 BCE: mean  +4.3 d  (range  +3.2 ..  +5.8)
+    326 BCE ..  277 BCE: mean  +4.5 d  (range  +3.5 ..  +5.8)
+    276 BCE ..  227 BCE: mean  +5.0 d  (range  +4.2 ..  +5.9)
+    226 BCE ..  177 BCE: mean  +5.1 d  (range  +3.8 ..  +6.3)
+    176 BCE ..  127 BCE: mean  +5.5 d  (range  +4.5 ..  +6.7)
+    126 BCE ..   77 BCE: mean  +5.9 d  (range  +4.6 ..  +7.1)
+     76 BCE ..   27 BCE: mean  +5.7 d  (range  +4.8 ..  +7.1)
+     26 BCE ..    AD 24: mean  +6.1 d  (range  +5.1 ..  +7.4)
+      AD 25 ..    AD 45: mean  +6.2 d  (range  +5.2 ..  +7.0)
+
+The scheme runs LATE against the true equinox for its whole
+attested life: about +4 days when the fixed cycle begins, growing
+~0.5 day per century (the Metonic year of 365.2467 d exceeds the
+tropical year) to about +6 days by the turn of the era. The
+calendar followed the scheme, not the sky: Nisanu 1 keeps its
+exact one-sided band around the scheme's equinox throughout,
+while both drift late together against the true equinox - which
+is why nisanu_equinox.py sees the calendar's floor above the true
+equinox slowly rising. Babylon's 'equinox rule' was kept, to the
+day, against Babylon's own computed equinox.
