@@ -40,7 +40,10 @@ Sirius phenomena from a fixed arithmetic scheme, the "Uruk scheme":
   cycle year = ((SE - 1) mod 19) + 1.
 - Successive summer solstices are separated by 12 months + 11;3,10 tithis
   (a tithi is 1/30 of a synodic month, about 0.984 days; dates written in
-  tithis differ from civil dates by at most about a day).
+  tithis differ from civil dates by at most about a day). "Tithi" is the
+  modern scholarly term, borrowed from Sanskrit; the cuneiform texts
+  simply write "day" (the unit itself is native to Late Babylonian
+  astronomy).
 - The other cardinal points follow by successive addition of 3 months +
   3 tithis (the scheme uses equal seasons for calendrical purposes even
   though Babylonian astronomers knew the seasons are unequal).
