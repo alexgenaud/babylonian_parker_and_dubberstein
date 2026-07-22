@@ -1,0 +1,29 @@
+lunations in our span: ours 8299, theirs 8299
+day-level: 2155 of 8299 dates differ ({-2: 4, -1: 870, 0: 6144, 1: 1281}) - see the .md on why these are suspect
+
+intercalary months in ours (1942) with no match in the 1956-derived
+series (see collation_1956.md for the full comparison table):
+  Addaru II jdn 1493580  Nabopolassar 1  confidence 2
+  Ululu II  jdn 1494495  Nabopolassar 4  confidence 3
+  Ululu II  jdn 1495588  Nabopolassar 7  confidence 5
+  Ululu II  jdn 1497419  Nabopolassar 12  confidence 2
+  Ululu II  jdn 1499250  Nabopolassar 17  confidence 2
+  Addaru II jdn 1502350  Nebuchadnezzar II 4  confidence 5
+  Ululu II  jdn 1505097  Nebuchadnezzar II 12  confidence 3
+  Addaru II jdn 1546174  Xerxes 5  confidence 5
+  Ululu II  jdn 1558783  Artaxerxes I 19  confidence 4
+  Ululu II  jdn 1565723  Artaxerxes I 38  confidence 4
+
+intercalary months in the 1956-derived series with no match in ours:
+  Addaru II jdn 1493934
+  Ululu II  jdn 1494849
+  Addaru II jdn 1495765
+  Addaru II jdn 1497596
+  Ululu II  jdn 1499959
+  Ululu II  jdn 1502527
+  Addaru II jdn 1504920
+  Addaru II jdn 1545819
+  Addaru II jdn 1558961
+  Addaru II jdn 1565901
+
+agreement: 237 of 247 intercalations

@@ -214,3 +214,12 @@ whose scan was also used to verify the corrections above.
 The transcription and machine-readable conversion were pioneered by Sean
 Redmond in [seanredmond/parker_and_dubberstein](https://github.com/seanredmond/parker_and_dubberstein),
 from which this repository is forked with gratitude.
+
+## License
+
+The original contributions of this repository (the corrected
+transcription, `intercalations.tsv`, the analyses, and the
+documentation) are licensed CC BY 4.0; the underlying data is Parker
+and Dubberstein's, and the transcription lineage is Sean Redmond's.
+See `LICENSE.md` for the full provenance, and `CITATION.cff` for how
+to cite.

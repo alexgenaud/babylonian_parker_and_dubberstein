@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, cite it as below, and cite Parker and
+  Dubberstein (1942), whose work all chronological data derives from.
+type: dataset
+title: >-
+  Parker and Dubberstein's Babylonian Chronology: corrected
+  machine-readable tables with attestation-graded intercalations
+authors:
+  - family-names: Genaud
+    given-names: Alexander E
+license: CC-BY-4.0
+repository-code: https://github.com/alexgenaud/babylonian_parker_and_dubberstein
+references:
+  - type: book
+    title: Babylonian Chronology 626 B.C.-A.D. 45
+    authors:
+      - family-names: Parker
+        given-names: Richard A.
+      - family-names: Dubberstein
+        given-names: Waldo H.
+    year: 1942
+    publisher:
+      name: The University of Chicago Press
+    collection-title: Studies in Ancient Oriental Civilization 24
+  - type: software
+    title: parker_and_dubberstein (original transcription)
+    authors:
+      - family-names: Redmond
+        given-names: Sean
+    repository-code: https://github.com/seanredmond/parker_and_dubberstein
