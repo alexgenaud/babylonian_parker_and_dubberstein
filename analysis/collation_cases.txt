@@ -1,0 +1,126 @@
+============================================================================
+CASE 1: our intercalary month at jdn 1493580 (-623-03-14)
+  1942 (ours):
+    Nisanu -625-04-05  N1-eq   +8.1  full-eq  +21.2  regular year
+    Nisanu -624-03-24  N1-eq   -3.1  full-eq  +10.0  Addaru II at -623-03-14
+    Nisanu -623-04-12  N1-eq  +15.6  full-eq  +28.5  regular year
+    Nisanu -622-04-02  N1-eq   +5.4  full-eq  +17.7  regular year
+    Nisanu -621-03-22  N1-eq   -5.9  full-eq   +7.2  Ululu II at -621-09-15
+  1956-derived:
+    Nisanu -625-04-05  N1-eq   +8.1  full-eq  +21.2  regular year
+    Nisanu -624-03-24  N1-eq   -3.1  full-eq  +10.0  regular year
+    Nisanu -623-03-14  N1-eq  -13.4  full-eq   -0.9  Addaru II at -622-03-03
+    Nisanu -622-04-02  N1-eq   +5.4  full-eq  +17.7  regular year
+    Nisanu -621-03-22  N1-eq   -5.9  full-eq   +7.2  regular year
+============================================================================
+CASE 2: our intercalary month at jdn 1494495 (-621-09-15)
+  1942 (ours):
+    Nisanu -622-04-02  N1-eq   +5.4  full-eq  +17.7  regular year
+    Nisanu -621-03-22  N1-eq   -5.9  full-eq   +7.2  Ululu II at -621-09-15
+    Nisanu -620-04-09  N1-eq  +12.9  full-eq  +25.9  regular year
+    Nisanu -619-03-30  N1-eq   +2.7  full-eq  +15.3  regular year
+  1956-derived:
+    Nisanu -622-04-02  N1-eq   +5.4  full-eq  +17.7  regular year
+    Nisanu -621-03-22  N1-eq   -5.9  full-eq   +7.2  regular year
+    Nisanu -620-03-11  N1-eq  -16.1  full-eq   -3.4  Ululu II at -620-09-03
+    Nisanu -619-03-30  N1-eq   +2.7  full-eq  +15.3  regular year
+============================================================================
+CASE 3: our intercalary month at jdn 1495588 (-618-09-12)
+  1942 (ours):
+    Nisanu -619-03-30  N1-eq   +2.7  full-eq  +15.3  regular year
+    Nisanu -618-03-19  N1-eq   -8.6  full-eq   +4.5  Ululu II at -618-09-12
+    Nisanu -617-04-07  N1-eq  +10.2  full-eq  +23.0  regular year
+    Nisanu -616-03-26  N1-eq   -1.1  full-eq  +11.8  regular year
+  1956-derived:
+    Nisanu -619-03-30  N1-eq   +2.7  full-eq  +15.3  regular year
+    Nisanu -618-03-19  N1-eq   -8.6  full-eq   +4.5  Addaru II at -617-03-08
+    Nisanu -617-04-07  N1-eq  +10.2  full-eq  +23.0  regular year
+    Nisanu -616-03-26  N1-eq   -1.1  full-eq  +11.8  regular year
+============================================================================
+CASE 4: our intercalary month at jdn 1497419 (-613-09-17)
+  1942 (ours):
+    Nisanu -614-04-03  N1-eq   +6.5  full-eq  +19.3  regular year
+    Nisanu -613-03-24  N1-eq   -3.8  full-eq   +8.5  Ululu II at -613-09-17
+    Nisanu -612-04-11  N1-eq  +15.0  full-eq  +27.3  regular year
+    Nisanu -611-03-31  N1-eq   +3.7  full-eq  +16.8  regular year
+  1956-derived:
+    Nisanu -614-04-03  N1-eq   +6.5  full-eq  +19.3  regular year
+    Nisanu -613-03-24  N1-eq   -3.8  full-eq   +8.5  Addaru II at -612-03-12
+    Nisanu -612-04-11  N1-eq  +15.0  full-eq  +27.3  regular year
+    Nisanu -611-03-31  N1-eq   +3.7  full-eq  +16.8  regular year
+============================================================================
+CASE 5: our intercalary month at jdn 1499250 (-608-09-21)
+  1942 (ours):
+    Nisanu -609-04-09  N1-eq  +12.2  full-eq  +24.7  regular year
+    Nisanu -608-03-28  N1-eq   +1.0  full-eq  +13.7  Ululu II at -608-09-21
+    Nisanu -607-04-16  N1-eq  +19.8  full-eq  +32.1  regular year
+    Nisanu -606-04-05  N1-eq   +8.5  full-eq  +20.9  regular year
+  1956-derived:
+    Nisanu -609-04-09  N1-eq  +12.2  full-eq  +24.7  regular year
+    Nisanu -608-03-28  N1-eq   +1.0  full-eq  +13.7  regular year
+    Nisanu -607-03-17  N1-eq  -10.2  full-eq   +2.4  regular year
+    Nisanu -606-03-06  N1-eq  -21.5  full-eq   -8.6  Ululu II at -606-08-31
+============================================================================
+CASE 6: our intercalary month at jdn 1502350 (-599-03-18)
+  1942 (ours):
+    Nisanu -601-04-10  N1-eq  +13.3  full-eq  +26.3  regular year
+    Nisanu -600-03-30  N1-eq   +3.1  full-eq  +15.4  Addaru II at -599-03-18
+    Nisanu -599-04-17  N1-eq  +20.8  full-eq  +33.9  regular year
+    Nisanu -598-04-06  N1-eq   +9.6  full-eq  +22.7  regular year
+    Nisanu -597-03-27  N1-eq   -0.7  full-eq  +11.6  Ululu II at -597-09-20
+  1956-derived:
+    Nisanu -601-04-10  N1-eq  +13.3  full-eq  +26.3  regular year
+    Nisanu -600-03-30  N1-eq   +3.1  full-eq  +15.4  regular year
+    Nisanu -599-03-19  N1-eq   -8.2  full-eq   +4.3  Ululu II at -599-09-11
+    Nisanu -598-04-06  N1-eq   +9.6  full-eq  +22.7  regular year
+    Nisanu -597-03-27  N1-eq   -0.7  full-eq  +11.6  Ululu II at -597-09-21
+============================================================================
+CASE 7: our intercalary month at jdn 1505097 (-592-09-24)
+  1942 (ours):
+    Nisanu -593-04-12  N1-eq  +15.4  full-eq  +27.7  regular year
+    Nisanu -592-03-31  N1-eq   +4.1  full-eq  +17.1  Ululu II at -592-09-24
+    Nisanu -591-04-19  N1-eq  +22.9  full-eq  +35.7  regular year
+    Nisanu -590-04-08  N1-eq  +11.6  full-eq  +24.6  Addaru II at -589-03-28
+  1956-derived:
+    Nisanu -593-04-12  N1-eq  +15.4  full-eq  +27.7  Addaru II at -592-03-31
+    Nisanu -592-04-30  N1-eq  +34.1  full-eq  +46.5  regular year
+    Nisanu -591-04-19  N1-eq  +22.9  full-eq  +35.7  regular year
+    Nisanu -590-04-08  N1-eq  +11.6  full-eq  +24.6  Addaru II at -589-03-28
+============================================================================
+CASE 8: our intercalary month at jdn 1546174 (-479-03-12)
+  1942 (ours):
+    Nisanu -481-04-03  N1-eq   +7.2  full-eq  +19.9  regular year
+    Nisanu -480-03-23  N1-eq   -3.0  full-eq   +9.2  Addaru II at -479-03-12
+    Nisanu -479-04-11  N1-eq  +15.8  full-eq  +28.0  regular year
+    Nisanu -478-03-31  N1-eq   +4.5  full-eq  +17.4  Addaru II at -477-03-20
+    Nisanu -477-04-19  N1-eq  +23.3  full-eq  +36.1  regular year
+  1956-derived:
+    Nisanu -481-04-03  N1-eq   +7.2  full-eq  +19.9  Addaru II at -480-03-22
+    Nisanu -480-04-21  N1-eq  +26.0  full-eq  +38.5  regular year
+    Nisanu -479-04-11  N1-eq  +15.8  full-eq  +28.0  regular year
+    Nisanu -478-03-31  N1-eq   +4.5  full-eq  +17.4  Addaru II at -477-03-21
+    Nisanu -477-04-19  N1-eq  +23.3  full-eq  +36.1  regular year
+============================================================================
+CASE 9: our intercalary month at jdn 1558783 (-445-09-19)
+  1942 (ours):
+    Nisanu -446-04-06  N1-eq  +10.8  full-eq  +23.1  regular year
+    Nisanu -445-03-26  N1-eq   -0.5  full-eq  +12.4  Ululu II at -445-09-19
+    Nisanu -444-04-13  N1-eq  +18.3  full-eq  +31.1  regular year
+    Nisanu -443-04-03  N1-eq   +8.0  full-eq  +20.6  Addaru II at -442-03-23
+  1956-derived:
+    Nisanu -446-04-06  N1-eq  +10.8  full-eq  +23.1  regular year
+    Nisanu -445-03-26  N1-eq   -0.5  full-eq  +12.4  Addaru II at -444-03-15
+    Nisanu -444-04-13  N1-eq  +18.3  full-eq  +31.1  regular year
+    Nisanu -443-04-03  N1-eq   +8.0  full-eq  +20.6  Addaru II at -442-03-23
+============================================================================
+CASE 10: our intercalary month at jdn 1565723 (-426-09-19)
+  1942 (ours):
+    Nisanu -427-04-05  N1-eq  +10.2  full-eq  +23.3  regular year
+    Nisanu -426-03-26  N1-eq   -0.1  full-eq  +12.8  Ululu II at -426-09-19
+    Nisanu -425-04-14  N1-eq  +18.7  full-eq  +31.5  regular year
+    Nisanu -424-04-03  N1-eq   +8.4  full-eq  +20.9  Addaru II at -423-03-23
+  1956-derived:
+    Nisanu -427-04-05  N1-eq  +10.2  full-eq  +23.3  regular year
+    Nisanu -426-03-26  N1-eq   -0.1  full-eq  +12.8  Addaru II at -425-03-16
+    Nisanu -425-04-14  N1-eq  +18.7  full-eq  +31.5  regular year
+    Nisanu -424-04-03  N1-eq   +8.4  full-eq  +20.9  Addaru II at -423-03-23
